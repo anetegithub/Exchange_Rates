@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Result Chart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>Result Chart</h1>
+
+<input type="hidden" id="dates" value="@foreach (var d in (ViewData["Dates"] as IList<String>)) { if ((ViewData["Dates"] as IList<String>).IndexOf(d) == 0) { Write("\"" + d + "\""); } else { Write("," + "\"" + d + "\""); } }" />
+<input type="hidden" id="values" value="@foreach (var d in (ViewData["Values"] as IList<Decimal>)) { if ((ViewData["Values"] as IList<Decimal>).IndexOf(d) == 0) { Write(d.ToString().Replace(',', '.')); } else { Write("," + d.ToString().Replace(',', '.')); } } " />
+<input type="hidden" id="money" value="@ViewData["Money"]" />
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>

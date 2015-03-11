@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRates", "ExchangeRates\ExchangeRates.csproj", "{75EE52AA-7CC6-4054-9EB2-A4E2B2999A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRates.Tests", "ExchangeRates.Tests\ExchangeRates.Tests.csproj", "{268D1985-5BBC-4AC3-9926-CD5DBC325F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75EE52AA-7CC6-4054-9EB2-A4E2B2999A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EE52AA-7CC6-4054-9EB2-A4E2B2999A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EE52AA-7CC6-4054-9EB2-A4E2B2999A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EE52AA-7CC6-4054-9EB2-A4E2B2999A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268D1985-5BBC-4AC3-9926-CD5DBC325F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268D1985-5BBC-4AC3-9926-CD5DBC325F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268D1985-5BBC-4AC3-9926-CD5DBC325F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268D1985-5BBC-4AC3-9926-CD5DBC325F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
